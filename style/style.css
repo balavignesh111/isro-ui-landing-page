@@ -681,7 +681,7 @@ a {
 /* useful links here!!! */
 
 .master-container {
-  width: 100rem;
+  width: 100vw;
   height: 12rem;
   background: linear-gradient(90deg,rgb(15 10 20) 15%,rgb(72 37 83) 50%,rgb(4 5 75) 91%);
   display: flex;
@@ -746,4 +746,249 @@ a {
 
 .btn:hover::before {
   width: 160%;
+}
+
+/* footer starts here!!! */
+
+.footer{
+  font-size: 1rem;
+  color: white;
+  background-color: var(--var-dark-blue);
+  width: 100%;
+}
+
+.container1{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.address{
+  width: 40rem;
+  padding-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.address-box{
+  text-align: center;
+  background-color: var(--var-light-shaded-blue);
+  padding: 0.4rem 1rem 1.4rem;
+  border-bottom: 5px solid white;
+}
+
+.bottomLine{
+  border-top: none;
+  border-bottom: 1px solid var(--var-orange-clr);
+}
+
+.listOne p,.listTwo p,.listThree p{
+  color: var(--var-orange-clr);
+}
+
+.listOne p a,.listTwo p a,.listThree p a{
+  text-decoration: none;
+  color: white;
+}
+
+.linksContainer div p a:hover{
+  color: var(--var-orange-clr);
+}
+.linksContainer div p{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.listOne,.listTwo,.listThree{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.linksContainer{
+  width: 45rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 4rem;
+}
+
+.listOne{
+  width: 10rem;
+}
+
+.listTwo{
+  width: 15rem;
+}
+
+.listThree{
+  width: 10rem;
+}
+
+.footerImageIndiangov img,.footerImageIndianCode img,.footerImageSTQC img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.footerImageIndiangov{
+  width: 7rem;
+  align-self: center;
+  cursor: pointer;
+}
+
+.footerImageIndianCode{
+  width: 5rem;
+}
+
+.footerImageSTQC{
+  width: 4rem;
+  cursor: pointer;
+}
+
+.imageContainer{
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* container 2 starts here!!!! */
+.container2{
+  width: 100%;
+}
+.updateStatus{
+  text-align: end;
+  padding-right: 9rem;
+  color: #7FE771;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.copyrights,.designDescription{
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.designDescription{
+  font-size: 0.75rem;
+  padding-bottom: 1rem;
+}
+
+
+/* fixed images */
+.left-fixed-imaged img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.left-fixed-imaged{
+  width: 3.5rem;
+  background-color: white;
+  position: fixed;
+  top: 45%;
+  left:0rem
+}
+
+.left-fixed-imaged:hover{
+  background-color: grey;
+}
+
+/* right fixed icons */ 
+
+.fixed-image{
+  width: 3.5rem;
+  background-color: white;
+}
+
+.fixed-image img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.slider-img{
+  background-color: white;
+  width: 3.5rem;
+  position: fixed;
+  right: 0rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.2rem;
+  cursor: pointer;
+}
+
+.sliderOne{
+  top: 35%;
+}
+
+.sliderTwo{
+  top: 45%;
+}
+
+.sliderThree{
+  top: 55%;
+}
+
+.sliderFour{
+  top: 65%;
+}
+
+.slider-img p{
+  font-size: 0.9rem;
+  display: none;
+}
+
+.slider-img:hover{
+  width: 10rem;
+}
+
+.slider-img:hover p{
+  display: block;
+}
+.right-fixed-imaged{
+  position: absolute;
+  right: 0;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.upArrowBtn{
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid var(--var-orange-clr);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upArrowBtn{
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1rem;
+}
+
+.upArrowBtn i{
+  font-size: 1.2rem;
+  color: rgb(205, 164, 92);
+}
+
+.upArrowBtn:hover{
+  background-color: var(--var-orange-clr);
+}
+
+.upArrowBtn:hover i{
+  color: rgb(59, 59, 59);
 }
