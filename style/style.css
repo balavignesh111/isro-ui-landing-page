@@ -680,36 +680,33 @@ a {
 }
 /* useful links here!!! */
 
-/* .master {
+.master-container {
   width: 100rem;
-  height: 15rem;
-  background-image: linear-gradient(
-    to top,
-    rgba(42, 5, 112, 0),
-    rgb(110, 67, 226)
-  );
+  height: 12rem;
+  background: linear-gradient(90deg,rgb(15 10 20) 15%,rgb(72 37 83) 50%,rgb(4 5 75) 91%);
+  display: flex;
+  justify-content: flex-start;
 }
 .start {
-  padding-left: 12rem;
-  padding-top: 2rem;
+  color: white;
+  width: 20rem;
+  padding-left: 6rem;
+  padding-top: 3rem;
 }
 .all {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  padding-top: 3rem;
+  gap: 1rem;
 }
 
 .btn {
-  color: black;
-  text-transform: uppercase;
+  color: white;
+  background-color: rgb(142,108,51);
   text-decoration: none;
-  border: 2px solid black;
-  padding: 10px 20px;
-  font-size: 17px;
-  font-weight: bold;
-  background: transparent;
+  border: 2px solid rgb(142,108,51);
+  padding: 10px 30px;
+  font-size: 16px;
   position: relative;
   transition: all 0.1ss;
   overflow: hidden;
@@ -717,8 +714,21 @@ a {
   cursor: pointer;
 }
 
+.all-btn{
+  color: #000;
+  background-color: #fbf700;
+  border-color: #fbf700;
+}
+
 .btn:hover {
-  color: white;
+  background-color: var(--var-dark-blue);
+  border-color: var(--var-dark-blue);
+}
+
+.all-btn:hover{
+  color: #000;
+  background-color: #fbf700;
+  border-color: #fbf700;
 }
 
 .btn::before {
@@ -736,4 +746,4 @@ a {
 
 .btn:hover::before {
   width: 160%;
-} */
+}
