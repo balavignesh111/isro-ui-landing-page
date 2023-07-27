@@ -385,3 +385,355 @@ a {
 .gallerycolumn:hover .tooltiptext {
   visibility: visible;
 }
+
+/* recent update style starts here!!! */
+
+.top {
+  width: 100vw;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 20px 20px 60px #bebebe;
+  margin-top: 1rem;
+}
+.master {
+  width: 100vw;
+  height: 30rem;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.img-one {
+  width: 21rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.heading {
+  color: blue;
+  padding-bottom: 5px;
+  border-bottom: 2px solid blue;
+}
+.fullest {
+  position: relative;
+}
+.word {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.fullest:hover .word {
+  opacity: 1;
+  display: flex;
+}
+
+.word-1 {
+  color: yellow;
+  font-size: 16px;
+}
+
+.word-2 {
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+/* autonomous bodies starts here!!! */
+
+/* whole Container of the Autonomous - ISRO Centres - InSpace NSIL */
+
+.container-three {
+  background: var(--clr-bg-light-blue);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container of Autonomous - ISRO Centres - InSpace NSIL */
+
+.container-autonomous {
+  background: #0c1755;
+  width: 99%;
+  height: 18rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5rem;
+  box-shadow: 5px 10px 29px 0 rgb(0 0 0 / 88%);
+  border-top: 2px solid #0606df;
+}
+
+/* Autonomous bodies */
+
+.autonomous-bodies {
+  width: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-autonomous {
+  width: auto;
+  color: #ffffff;
+}
+
+.img-autonomous {
+  width: 22rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.img-autonomous img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.prl,
+.narl,
+.nesac,
+.iist {
+  width: 5rem;
+  padding-top: 1.3rem;
+  background-color: #164682;
+  border: 1px solid #d2be00;
+  border-radius: 4px;
+}
+
+.line-hr {
+}
+
+.prl-img,
+.narl-img,
+.nesac-img,
+.iist-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding-top: 0.5rem;
+}
+
+.prl-text,
+.narl-text,
+.nesac-text,
+.iist-text {
+  color: #ffff99;
+  text-align: center;
+  padding-bottom: 0.6rem;
+}
+
+/* IN-SPACe NSIL */
+
+.in-space-nsil {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-in-space {
+  color: #ffffff;
+}
+
+.img-in-space-nsil {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.img-in-space-nsil img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.in-space,
+.nsil {
+  width: 5rem;
+  padding-top: 1.3rem;
+  background-color: #164682;
+  border: 1px solid #d2be00;
+  border-radius: 4px;
+}
+
+.in-space-img,
+.nsil-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding-top: 0.5rem;
+}
+
+.in-space-text,
+.nsil-text {
+  color: #ffff99;
+  text-align: center;
+  padding-bottom: 0.6rem;
+}
+
+/* ISRO Centres & Units */
+
+.isro-centres {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading-isro {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-isro-centres {
+  width: 47rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.img-isro-centres img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hsfc,
+.iirs,
+.vssc,
+.iprc,
+.leos,
+.lpsc,
+.mcf {
+  width: 5rem;
+  padding-top: 1.3rem;
+  background-color: #164682;
+  border: 1px solid #d2be00;
+  border-radius: 4px;
+}
+
+.hsfc-img,
+.iirs-img,
+.vssc-img,
+.iprc-img,
+.leos-img,
+.lpsc-img,
+.mcf-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding-top: 0.5rem;
+}
+
+.hsfc-text,
+.iirs-text,
+.vssc-text,
+.iprc-text,
+.leos-text,
+.lpsc-text,
+.mcf-text {
+  color: #ffff99;
+  text-align: center;
+  padding-bottom: 0.6rem;
+}
+
+.autonomous-section{
+  width: 100%;
+  height: 23rem;
+  background-color: rgb(167,180,208);
+  padding: 0.5rem 1rem 2rem;
+}
+/* useful links here!!! */
+
+/* .master {
+  width: 100rem;
+  height: 15rem;
+  background-image: linear-gradient(
+    to top,
+    rgba(42, 5, 112, 0),
+    rgb(110, 67, 226)
+  );
+}
+.start {
+  padding-left: 12rem;
+  padding-top: 2rem;
+}
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 3rem;
+}
+
+.btn {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  background: transparent;
+  position: relative;
+  transition: all 0.1ss;
+  overflow: hidden;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(180deg);
+  background-color: red;
+  z-index: -1;
+  transition: all 1s;
+}
+
+.btn:hover::before {
+  width: 160%;
+} */
