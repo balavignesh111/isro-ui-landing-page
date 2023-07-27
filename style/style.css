@@ -3,6 +3,9 @@
   --var-light-shaded-blue:rgb(32,37,75);
   --var-orange-clr: rgb(205,164,92);
   --var-green: rgb(58,186,113);
+  --clr-bg-light-blue: #c9d8fa;
+  --clr-heading-latest-highlights-blue: #03234a;
+  --clr-inner-text: #fff;
 }
 
 *{
@@ -21,6 +24,8 @@ body{
   height: 100vh;
   overflow-x: hidden;
 }
+
+/* header style starts here!!! */
 
 .headerContainer{
   width: 100%;
@@ -130,10 +135,6 @@ body{
   background-color: rgb(2,12,68);
   width: 100%;
   height: 4rem;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  
 }
 .news{
   color: #ebb038;
@@ -147,7 +148,6 @@ body{
   background-color: #280ecd;
   height: 0.5rem;
   width: 2rem;
-
 }
 
 .flash-btn-conatiner{
@@ -160,16 +160,15 @@ body{
   position: relative;
   bottom: 3.8rem;
 }
-.empty-container{
-  height: 3rem;
-  width: 100%;
-  background-color: rgb(2,12,68);
+.video-container{
+  width: 100vw;
   position: relative;
-  bottom: 4rem;
+  background-color: rgb(2,12,68);
+  margin-top: 3.7rem;
 }
 
-.video-container{
-  position: relative;
+.rocket{
+  width: 100%;
 }
 
 .overlap-btn{
@@ -188,9 +187,117 @@ body{
   padding: 0.8rem;
   border: 1px solid rgb(25,115,176);
   border-radius: 5px;
+  opacity: 0.9;
 }
 
 .overlap-container h2{
   font-size: 1.2rem;
   color: white;
+}
+
+/* latest news and highlights starts here !!! */
+
+.container-zero {
+  background-color: rgb(201,216,250);
+  width: 100vw;
+  height: 27.5rem;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.container-latest-highlights {
+  background-color: var(--clr-bg-light-blue);
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+/* container for the latest news  */
+
+.container-latest-highlights {
+  background-color: var(--clr-bg-light-blue);
+  padding-bottom: 2rem;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.container-one {
+  margin-left: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-latest {
+  color: var(--clr-heading-latest-highlights-blue);
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.latest-news {
+}
+
+.input-box {
+  width: 43rem;
+  height: 16.5rem;
+  font-size: 1.3rem;
+  overflow: scroll;
+  background: linear-gradient(45deg, #1558ba 20%, #5e93e0 60%, #020c44);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.inner-text {
+  color: var(--clr-inner-text);
+  font-weight: 600;
+  padding: 1.5rem 1rem;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* container two = highlights */
+.container-two {
+  margin: 1rem 2rem;
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* name = highlighter */
+.heading-highlights {
+  color: var(--clr-heading-latest-highlights-blue);
+  font-weight: bold;
+  font-size: 2.2rem;
+  padding-top: 1rem;
+  padding-bottom: 0.9rem;
+}
+
+/*  Animation added for the slide changer for highlights */
+
+.img-slider {
+  width: 45rem;
+  height: 16.5rem;
+  background-image: url(../images/highlights/akam-home-banner-eng_large.jpg.webp);
+  background-size: 100% 100%;
+  animation: changeimage 10s normal infinite;
+  cursor: pointer;
+}
+@keyframes changeimage {
+  0% {
+    background-image: url(../images/highlights/akam-home-banner-eng_large.jpg.webp);
+  }
+  50% {
+    background-image: url(../images/highlights/yoga\ picture.png);
+  }
+  100% {
+    background-image: url(../images/highlights/akam-home-banner-eng_large.jpg.webp);
+  }
 }
